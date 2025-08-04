@@ -1,0 +1,48 @@
+body {
+    background-image: url(./img/mainback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+    font-family: Archangelsk, sans-serif;
+
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+
+}
+
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 20px;
+}
+
+.header__ikons {
+    align-content: center;
+}
+
+.header__ikon {
+    margin-right: 40px;
+}
+
+.welcome__border {
+    background-color: #F8F200;
+    width: 624px;
+    height: 369px;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 500px;
+
+}
