@@ -1,22 +1,41 @@
+@font-face {
+    font-family: 'Archangelsk';
+    src: url('./fonts/Archangelsk\ font.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
     background-image: url(./img/mainback.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
     margin: 0;
-    font-family: Archangelsk, sans-serif;
-
-    position: relative;
 }
 
 a {
     text-decoration: none;
 }
 
+p {
+    margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
 .container {
     max-width: 1280px;
     margin: auto;
-
 }
 
 
@@ -28,21 +47,44 @@ a {
 }
 
 .header__ikons {
-    align-content: center;
-}
-
-.header__ikon {
-    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .welcome__border {
     background-color: #F8F200;
-    width: 624px;
-    height: 369px;
+    width: 625px;
+    height: 370px;
 
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    top: 500px;
+    clip-path: polygon(50px 0, 100% 0, 100% calc(100% - 50px), calc(100% - 50px) 100%, 0 100%, 0 50px);
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome__title {
+    font-family: 'Archangelsk', sans-serif;
+    font-weight: 400;
+    font-size: 62px;
+
+    margin-bottom: 45px;
+}
+
+.welcome__btn {
+    font-family: Roboto, sans-serif;
+    color: #F8F200;
+    background-color: #000000;
+    font-weight: 700;
+    font-size: 24px;
+
+    padding: 20px 50px 20px 50px;
+}
+
+.welcome .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100vh;
 }
