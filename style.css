@@ -83,7 +83,7 @@ h6 {
     margin-bottom: 45px;
 }
 
-.welcome__btn {
+.btn__black {
     font-family: Roboto, sans-serif;
     color: #F8F200;
     background-color: #000000;
@@ -115,7 +115,7 @@ h6 {
     font-size: 18px;
     line-height: 34px;
 
-    opacity: 0.6;
+    opacity: 0.5;
     margin: 25px 0 70px 0;
 
     max-width: 950px;
@@ -131,4 +131,52 @@ h6 {
     display: flex;
     flex-direction: column;
     gap: 32px;
+}
+
+.black__noise {
+    background-image: url(./img/noise1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 10vh;
+
+    margin-top: 70px;
+}
+
+.play {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.play__main-right {
+    background-image: url(./img/playback.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.play__subtittle {
+    display: flex;
+    align-items: end;
+    gap: 32px;
+}
+
+.play__subtittle-text {
+    font-family: 'Archangelsk', sans-serif;
+    font-weight: 400;
+    font-size: 62px;
+}
+
+.play__tittle {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+
+    max-width: 950px;
+    margin: 25px 0 25px 0;
+}
+
+.play__main {
+    display: flex;
 }
