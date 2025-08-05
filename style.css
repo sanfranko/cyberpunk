@@ -150,10 +150,19 @@ h6 {
 
 .play__main-right {
     background-image: url(./img/playback.png);
-    width: 100%;
+    width: 790px;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
+
+    padding: 25px;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
 }
+
+
 
 .play__subtittle {
     display: flex;
@@ -179,4 +188,10 @@ h6 {
 
 .play__main {
     display: flex;
+}
+
+.play__main-left {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
