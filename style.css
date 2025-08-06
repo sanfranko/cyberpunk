@@ -20,7 +20,7 @@ p {
 }
 
 .blue {
-    color: #0099ff;
+    color: #00aeff;
     font-weight: 700;
 }
 
@@ -90,7 +90,7 @@ h6 {
     font-weight: 700;
     font-size: 24px;
 
-    padding: 20px 50px 20px 50px;
+    padding: 20px 50px;
 }
 
 .welcome .container {
@@ -182,7 +182,7 @@ h6 {
     font-size: 18px;
     line-height: 34px;
 
-    max-width: 950px;
+    max-width: 1000px;
     margin: 25px 0 25px 0;
 }
 
@@ -194,4 +194,57 @@ h6 {
     display: flex;
     flex-direction: column;
     gap: 32px;
+}
+
+.play__input-name,
+.play__input-email {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #888;
+    padding: 8px 0;
+    font-size: 18px;
+
+    color: #ffffff;
+}
+
+.play__input-name:focus,
+.play__input-email:focus {
+    outline: none;
+    border-bottom: 1px solid #00aeff;
+}
+
+.play__input-file {
+    border: 1px dashed #888;
+    padding: 40px;
+    color: #ccc;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn__yellow {
+    font-family: Roboto, sans-serif;
+    color: #000000;
+    background-color: #F8F200;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+
+    width: 25%;
+
+    padding: 20px 50px;
+}
+
+.play__agree {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+
+    margin-top: -20px;
+    margin-left: -5px;
+
+    color: #888;
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
