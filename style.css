@@ -75,7 +75,7 @@ h6 {
     justify-content: center;
 }
 
-.welcome__title {
+.welcome__subtitle {
     font-family: 'Archangelsk', sans-serif;
     font-weight: 400;
     font-size: 62px;
@@ -188,6 +188,7 @@ h6 {
 
 .play__main {
     display: flex;
+    padding-bottom: 70px;
 }
 
 .play__main-left {
@@ -247,4 +248,54 @@ h6 {
     display: flex;
     align-items: center;
     gap: 4px;
+}
+
+.yellow__noise {
+    background-image: url(./img/noise2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 10vh;
+}
+
+.hpcollab {
+    background-color: #F8F200;
+}
+
+.btn__black--small {
+    font-size: 18px;
+}
+
+.hpcollab__main {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+
+    padding: 70px 0;
+}
+
+.hpcyberpunk {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 25px;
+}
+
+.hpcollab__main-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.hpcollab__subtittle {
+    font-family: Archangelsk, sans-serif;
+    font-weight: 400;
+    font-size: 62px;
+}
+
+.hpcollab__tittle {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
 }
