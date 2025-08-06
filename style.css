@@ -264,6 +264,8 @@ h6 {
 
 .btn__black--small {
     font-size: 18px;
+    width: 130px;
+    text-align: center;
 }
 
 .hpcollab__main {
@@ -298,4 +300,40 @@ h6 {
     font-family: Roboto, sans-serif;
     font-size: 18px;
     line-height: 34px;
+}
+
+.hpcollab__spec {
+    display: flex;
+    align-items: center;
+}
+
+.hpcollab__spec::before {
+    width: 32px;
+    height: 32px;
+}
+
+.hpcollab__spec-icon1::before {
+    content: url(./img/y1.png);
+    margin-right: 10px;
+}
+
+.hpcollab__spec-icon2::before {
+    content: url(./img/y2.png);
+    margin-right: 10px;
+}
+
+.hpcollab__spec-icon3::before {
+    content: url(./img/y3.png);
+    margin-right: 10px;
+}
+
+.hpcollab__specification {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+
+    margin-bottom: 15px;
 }
