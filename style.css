@@ -20,7 +20,7 @@ p {
 }
 
 .blue {
-    color: #00aeff;
+    color: #52BEDC;
     font-weight: 700;
 }
 
@@ -271,7 +271,7 @@ h6 {
 .hpcollab__main {
     display: flex;
     justify-content: space-between;
-    gap: 32px;
+    gap: 52px;
 
     padding: 70px 0;
 }
@@ -313,17 +313,17 @@ h6 {
 }
 
 .hpcollab__spec-icon1::before {
-    content: url(./img/y1.png);
+    content: url(./img/ikons/y1.png);
     margin-right: 10px;
 }
 
 .hpcollab__spec-icon2::before {
-    content: url(./img/y2.png);
+    content: url(./img/ikons/y2.png);
     margin-right: 10px;
 }
 
 .hpcollab__spec-icon3::before {
-    content: url(./img/y3.png);
+    content: url(./img/ikons/y3.png);
     margin-right: 10px;
 }
 
@@ -336,4 +336,84 @@ h6 {
     font-size: 18px;
 
     margin-bottom: 15px;
+}
+
+.buygame__main-left img {
+    visibility: hidden;
+}
+
+
+.buygame {
+    background-image: url(./img/lastback.jpg);
+    background-repeat: no-repeat;
+    min-height: 76vh;
+
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.buygame__main {
+    display: flex;
+    justify-content: space-between;
+    gap: 52px;
+
+    padding-top: 70px;
+}
+
+.buygame__subtittle {
+    font-family: Archangelsk, sans-serif;
+    font-weight: 400;
+    font-size: 62px;
+}
+
+.blue__text {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #52BEDC;
+    margin-bottom: -15px;
+    margin-top: 25px;
+}
+
+.buygame__icons {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+    margin-top: 50px;
+}
+
+.buygame__specification {
+    margin-top: 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+
+    margin-bottom: 55px;
+}
+
+.buygame__spec {
+    display: flex;
+    align-items: center;
+}
+
+
+.buygame__spec-icon1::before {
+    content: url(./img/ikons/b1.png);
+    margin-right: 10px;
+}
+
+.buygame__spec-icon2::before {
+    content: url(./img/ikons/b2.png);
+    margin-right: 10px;
+}
+
+.buygame__spec-icon3::before {
+    content: url(./img/ikons/b3.png);
+    margin-right: 10px;
 }
