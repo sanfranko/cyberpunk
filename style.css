@@ -417,3 +417,42 @@ h6 {
     content: url(./img/ikons/b3.png);
     margin-right: 10px;
 }
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 0;
+}
+
+.footer__main-img {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer__main-link {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer__main-link a {
+    color: #000000;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.under__footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 13px 0;
+
+    text-align: center;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
